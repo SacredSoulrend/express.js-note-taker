@@ -28,3 +28,12 @@ app.post('/api/notes', (req, res) => {
   res.json(newNote);
 });
 
+// DELETE /api/notes/:id
+app.delete('/api/notes/:id', (req, res) => {
+  const noteId = req.params.id;
+  const notes = JSON.parse(fs.readFileSync('db.json', 'utf8'));
+  const updatedNotes = notes.filter((note) => note.id !== noteId);
+  fs.writeFileSync('db.json', JSON.stringify(updatedNotes));
+  res.json({ message: 'Note deleted' });
+});
+
