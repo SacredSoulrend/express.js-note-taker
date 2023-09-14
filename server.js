@@ -18,3 +18,13 @@ app.get('/api/notes', (req, res) => {
   res.json(notes);
 });
 
+// POST /api/notes
+app.post('/api/notes', (req, res) => {
+  const newNote = req.body;
+  const notes = JSON.parse(fs.readFileSync('db.json', 'utf8'));
+  newNote.id = generateUniqueID(); // Generate a unique ID for the new note
+  notes.push(newNote);
+  fs.writeFileSync('db.json', JSON.stringify(notes));
+  res.json(newNote);
+});
+
