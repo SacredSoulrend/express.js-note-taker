@@ -56,7 +56,7 @@ For additional questions, contact .
 GitHub: [SacredSoulrend](https://github.com/SacredSoulrend)
 
 ## Mockup
-![Alt text](<Express.js note taker screenshot 2.png>)
+![Alt text](<Express.js note taker screenshot 2-1.png>)
 
 ## Visit the webpage
 https://sacredsoulrend.github.io/express.js-note-taker/
