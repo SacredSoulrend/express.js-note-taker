@@ -15,7 +15,9 @@ This is a simple Note Taker web application built using Express.js and Node.js. 
 To run this application, you'll need Node.js and npm (Node Package Manager) installed on your computer. 
 
 ## Usage
-1. Start the Server: npm start
+1. Start the Server: 
+
+In the terminal(bash), type in 'npm start'.
 
 2. Open the Application: 
 
