@@ -61,4 +61,4 @@ GitHub: [SacredSoulrend](https://github.com/SacredSoulrend)
 ![Alt text](<Express.js note taker screenshot 2.png>)
 
 ## Visit the webpage
-https://sacredsoulrend.github.io/express.js-note-taker/
+https://note-taker-app-express-js-99d9a056f7d3.herokuapp.com/
